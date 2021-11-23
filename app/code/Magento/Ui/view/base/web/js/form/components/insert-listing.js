@@ -18,6 +18,7 @@ define([
         defaults: {
             externalListingName: '${ $.ns }.${ $.ns }',
             behaviourType: 'simple',
+            initialExportDone: false,
             externalFilterMode: false,
             requestConfig: {
                 method: 'POST'
